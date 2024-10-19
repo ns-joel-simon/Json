@@ -10,10 +10,10 @@ class ExcelToJsonConverter:
         self.root.title("Excel to JSON Converter")
 
         # Create widgets
-        self.label = tk.Label(root, text="Select an Excel file:")
-        self.label.pack(pady=10)
+        self.label = tk.Label(root, text="Select an Excel file:", font="Arial")
+        self.label.pack(pady=100)
 
-        self.file_path_entry = tk.Entry(root, width=50)
+        self.file_path_entry = tk.Entry(root, width=100)
         self.file_path_entry.pack(pady=10)
 
         self.browse_button = tk.Button(root, text="Browse", command=self.browse_file)
