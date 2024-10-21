@@ -4,7 +4,7 @@ import socket
 from datetime import datetime
 
 logging.basicConfig(
-    filename='internet_connection.log',
+    filename='result/internet_connection.log',
     level=logging.INFO,
     format='%(message)s'
 )
