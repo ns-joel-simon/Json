@@ -1,3 +1,6 @@
+"""1. Write a python script to read the data from Excel & convert it into JSON & store it in a json file
+   2. Do the same with tinker """
+
 import tkinter as tk
 from tkinter import filedialog, messagebox
 import pandas as pd
